@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans+JP:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@600&family=Montserrat:wght@500&family=Noto+Sans+JP:wght@500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color: lightgray;
+    list-style: none;
+}
+
+@media all and (max-width: 600px) and (max-height: 600px){
+    html{
+        font-size:10px;
+    }
+}
+
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+/*form*/
+
+
+#contact{
+    text-align: center;
+}
+
+input[type="email"]{
+    background-color: white;
+   width:290px;
+   height: 20px;
+    border: 1px solid black;
+}
+
+input[type="submit"]{
+    padding:5px;
+    width:100px;
+    color: black;
+    background-color: #dddd;
+    cursor:pointer;
+    margin:20px;
+    transition: all 0.3s ease 0s;
+}
+
+
+.wrapper{
+    display:flex;
+    justify-content: center;
+
+}
+
+input[type="submit"]:hover{
+    background-color:green;
+}
+
+/*heading*/
+
+.logo{
+    height:100%;
+    width: 100px;
+    cursor: pointer;
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color:black;
+    text-decoration: none;
+}
+
+
+header{
+    display: fixed;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+#nav-bar{
+    height:0px;
+}
+.nav-links{
+    position: relative;
+    float: right;
+    margin-right:20px;
+    bottom:40px
+}
+
+.nav-links li{
+    display: inline-block; /* make elments side by side */
+    padding: 0px 20px;
+
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color:red;
+    
+}
+
+/* pricing */
+
+#container h2{
+    color:black;
+    font-family: "Heebo",arial;
+    text-align: center;
+    font-size: 32px;
+    padding:50px 0px;
+}
+
+#pricerow{
+    display:grid;
+    width: 90%;
+    max-width: 1100px;
+    margin:auto;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 25px;
+
+}
+
+.column{
+    background-color:#1f283b;
+    padding: 10% 15%;
+    border-radius: 10px;
+    color: #ffff;
+    text-align: center;
+}
+
+
+.HIW{
+    display:flex;
+    justify-content: center;
+}
+.HIW h2{
+    background-color: orange;
+    border-color:black solid;
+    text-align: center;
+    padding:10px 0px;
+    margin:10px;
+    width:30%;
+
+
+    
+}
+
