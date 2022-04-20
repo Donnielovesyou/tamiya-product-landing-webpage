@@ -50,7 +50,7 @@ input[type="submit"]{
     padding:5px;
     width:100px;
     color: black;
-    background-color: #dddd;
+    background-color: orange;
     cursor:pointer;
     margin:20px;
     transition: all 0.3s ease 0s;
@@ -64,7 +64,7 @@ input[type="submit"]{
 }
 
 input[type="submit"]:hover{
-    background-color:green;
+    background-color:yellow;
 }
 
 /*heading*/
